@@ -18,7 +18,7 @@ export function LeetcodeDisplay(){
     const [year,setYear] = useState(null)       //used for filtering data into different years
     const [search,setSearch] = useState(null)       //used for filtering data of diiferent members
     useEffect(() => {
-        fetch(`http://127.0.0.1:8000/api/leetcode/`)
+        fetch(`https://coscnot.pythonanywhere.com/api/leetcode/`)
             .then(resp => resp.json())
             .then((resp) => {
                 setData(resp)
