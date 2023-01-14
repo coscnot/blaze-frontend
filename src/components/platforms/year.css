@@ -1,0 +1,10 @@
+#search_graph .react-datalist-input__textbox
+{
+    height:15px;
+    min-width:140px !important;
+}
+
+#search_graph .react-datalist-input__listbox-option
+{
+    overflow: hidden;
+}
